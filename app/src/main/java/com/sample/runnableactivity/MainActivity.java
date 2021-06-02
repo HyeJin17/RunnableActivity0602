@@ -40,7 +40,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         running = true;
-        wt= new WorkerThread();
+        wt= new WorkerRunnable();
+
 
         wt.start();
         wr.start();
