@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.sample.runnableactivity.R;
+
 public class MainActivity extends AppCompatActivity {
     WorkerThread wt;
     WorkerThread wr;
